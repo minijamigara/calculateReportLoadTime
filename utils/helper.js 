@@ -1,0 +1,6 @@
+// utils/helper.js
+module.exports = {
+  waitForReportLoad: async (page) => {
+    await page.waitForSelector('#report-loaded-indicator');  // Adjust the selector as needed
+  }
+};

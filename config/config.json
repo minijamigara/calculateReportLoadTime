@@ -1,0 +1,8 @@
+{
+    "loginPageUrl": "https://elmb8-lts-atom.orangehrm.com/",
+    "reportUrl": "https://elmb8-lts-atom.orangehrm.com/client/#/report/oxd/pim/PIM_Report_template/pim/pim_reports/500",
+    "username": "_ohrmSysAdmin_",
+    "password": "admin@OHRM123",
+    "reportTableSelector": "#pim_report_table"
+  }
+  
