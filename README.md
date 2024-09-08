@@ -20,20 +20,20 @@ This project uses Playwright for end-to-end testing of report load times in a we
    cd <repository-directory>
 2. **Install Dependencies**
    npm install
-3. **Update config/config.json**
-    loginPageUrl: URL of the login page.
-    reportUrl: URL of the report page.
-    username: Your login username.
-    password: Your login password.
-    reportTableSelector: CSS selector for the report table element.
-Example -
-{
-  "loginPageUrl": "https://example.com/login",
-  "reportUrl": "https://example.com/report",
-  "username": "your-username",
-  "password": "your-password",
-  "reportTableSelector": "#report-table",
-  "generateButtonSelector": "#generate"
+3. **Update config/config.json** <br>
+    loginPageUrl: URL of the login page.<br>
+    reportUrl: URL of the report page.<br>
+    username: Your login username.<br>
+    password: Your login password.<br>
+    reportTableSelector: CSS selector for the report table element.<br>
+Example -<br>
+{<br>
+  "loginPageUrl": "https://example.com/login",<br>
+  "reportUrl": "https://example.com/report",<br>
+  "username": "your-username",<br>
+  "password": "your-password",<br>
+  "reportTableSelector": "#report-table",<br>
+  "generateButtonSelector": "#generate"<br>
 }
 4. **To execute the tests, use the Playwright Test Runner. You can run all the test files in the tests directory**
    node tests/reportLoadTest.js
